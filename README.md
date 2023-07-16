@@ -44,7 +44,7 @@ git clone https://github.com/your-username/employee-management-system.git
 
 3. Update the database configuration in the `application.properties` file located in the `src/main/resources` directory:
    
-`spring.datasource.url = jdbc:mysql://localhost:3306/EmployeeMgmtDB?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+`spring.datasource.url = jdbc:mysql://localhost:3306/EmployeeMgmtDB?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false`
 
 spring.datasource.username = root
 
