@@ -22,8 +22,9 @@ spring.datasource.password=your-password
 
 Open a web browser and visit http://localhost:8080 to access the application.
 
-Usage
-To view the list of employees, go to the homepage (http://localhost:8080).
-To add a new employee, click on the "Add Employee" button and fill in the details in the provided form.
-To edit an employee's details, click on the "Edit" button next to the employee in the list and update the information in the form.
-To delete an employee, click on the "Delete" button next to the employee in the list.
+## Usage
+
+1.To view the list of employees, go to the homepage (http://localhost:8080).
+2.To add a new employee, click on the "Add Employee" button and fill in the details in the provided form.
+3.To edit an employee's details, click on the "Edit" button next to the employee in the list and update the information in the form.
+4.To delete an employee, click on the "Delete" button next to the employee in the list.
