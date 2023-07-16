@@ -43,12 +43,16 @@ To get started with the Employee Management System, make sure you have the follo
 git clone https://github.com/your-username/employee-management-system.git
 
 3. Update the database configuration in the `application.properties` file located in the `src/main/resources` directory:
-   ```properties
- spring.datasource.url = jdbc:mysql://localhost:3306/EmployeeMgmtDB?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
- spring.datasource.username = root
- spring.datasource.password = your password
- spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
- spring.jpa.hibernate.ddl-auto = none 
+
+`spring.datasource.url=jdbc:mysql://localhost:3306/EmployeeDB?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false`
+
+`spring.datasource.username=root`
+
+`spring.datasource.password=Manya05$`
+
+`spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect`
+
+`spring.jpa.hibernate.ddl-auto=none`
 
 5. Build the project using Maven or your IDE.
 
