@@ -9,6 +9,9 @@ This is a web application that allows you to manage employee details using a Spr
 - MySQL database server
 - Node.js (for frontend development)
 
+
+
+
 ## Setup
 
 1. Clone the repository:
@@ -18,5 +21,15 @@ This is a web application that allows you to manage employee details using a Spr
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/your-database
 spring.datasource.username=your-username
-spring.datasource.password=your-password
+spring.datasource.password=your-password`
+
+Open a web browser and visit http://localhost:8080 to access the application
+
+
+## Usage
+
+1.To view the list of employees, go to the homepage (http://localhost:8080).
+2.To add a new employee, click on the "Add Employee" button and fill in the details in the provided form.
+3.To edit an employee's details, click on the "Edit" button next to the employee in the list and update the information in the form.
+4.To delete an employee, click on the "Delete" button next to the employee in the list.
 
