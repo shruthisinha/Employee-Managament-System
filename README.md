@@ -38,11 +38,12 @@ To get started with the Employee Management System, make sure you have the follo
 ## Installation
 
 1. Clone the repository:
+`https://github.com/shruthisinha/Employee-Managament-System`
 
-2. Create a MySQL database for the project.
+3. Create a MySQL database for the project.
 git clone https://github.com/your-username/employee-management-system.git
 
-3. Update the database configuration in the `application.properties` file located in the `src/main/resources` directory:
+4. Update the database configuration in the `application.properties` file located in the `src/main/resources` directory:
 
 `spring.datasource.url=jdbc:mysql://localhost:3306/EmployeeDB?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false`
 
