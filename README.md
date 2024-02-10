@@ -49,7 +49,7 @@ git clone https://github.com/your-username/employee-management-system.git
 
 `spring.datasource.username=root`
 
-`spring.datasource.password=Manya05$`
+`spring.datasource.password=`
 
 `spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect`
 
